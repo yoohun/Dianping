@@ -1,0 +1,81 @@
+<view class='content'>
+  <view class='personal'>
+    <view class='personalInform'>
+      <view class='personalInformImg'></view>
+      <view class='personalInformName'></view>
+    </view>
+    <view class='personalIndex'>
+      个人主页
+      <view class='iconfont icon-xiangyou'></view>
+    </view>
+  </view>
+  <view class='nameCard'>
+    <view class='nameCardLeft'>
+      <view class='top'></view>
+      <view class='bottom'></view>
+    </view>
+    <view class='nameCardRight'>
+      <view ></view>
+    </view>
+  </view>
+  <view class='myDD'>
+    <view class='title'>我的订单</view>
+    <view class='ddIist'>
+      <view class='ddItem'>
+        <view class='iconfont icon-fukuan'></view>
+        <view class='itemTitle'>代付款</view>
+      </view>
+      <view class='ddItem'>
+        <view class='iconfont icon-wenjuandiaocha'></view>
+        <view class='itemTitle'>可使用</view>
+      </view>
+      <view class='ddItem'>
+        <view class='iconfont icon-tuikuan'></view>
+        <view class='itemTitle'>退款/售后</view>
+      </view>
+      <view class='ddItem borderLitem'>
+        <view class='iconfont icon-dingdan'></view>
+        <view class='itemTitle'>全部订单</view>
+      </view>
+    </view>
+  </view>
+  <view class='myDD gongju'>
+    <view class='title'>必备工具</view>
+    <view class='ddIist'>
+      <view class='ddItem'>
+        <view class='iconfont icon-quan'></view>
+        <view class='itemTitle'>领券中心</view>
+      </view>
+      <view class='ddItem'>
+        <view class='iconfont icon-navicon-tp'></view>
+        <view class='itemTitle'>聚餐投票</view>
+      </view>
+      <view class='ddItem'>
+        <view class='iconfont icon-meishi'></view>
+        <view class='itemTitle'>今天吃啥</view>
+      </view>
+      <view class='ddItem'>
+        <view class='iconfont icon-xinxi'></view>
+        <view class='itemTitle'>贡献信息</view>
+      </view>
+    </view>
+  </view>
+  <view class='otherList'>
+    <view class='listLi'>
+      <view class='listLiText'>优惠券</view>
+      <view class='iconfont icon-xiangyou'></view>
+    </view>
+    <view class='listLi'>
+      <view class='listLiText'>收藏</view>
+      <view class='iconfont icon-xiangyou'></view>
+    </view>
+    <view class='listLi'>
+      <view class='listLiText'>设置</view>
+      <view class='iconfont icon-xiangyou'></view>
+    </view>
+    <view class='listLi'>
+      <view class='listLiText'>客服电话：10100011</view>
+      <view class='iconfont icon-xiangyou'></view>
+    </view>
+  </view>
+</view>

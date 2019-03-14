@@ -1,0 +1,28 @@
+<view class='content'>
+  <view class='view-left'>
+    <scroll-view  scroll-y='true' scroll-into-view="{{toView}}" style='width:100%;position:relative;height:{{scroll_height}}rpx;' bindtap='chosecity' >
+      <view class='citySearch'>
+        <input class='citySearchIpt' placeholder='输入城市名或拼音查询'      placeholder-class='citySearchIptPlaceholder'></input>
+      </view>
+      <view class='locationCity'>
+      {{locateCity}}
+        <view>GPS定位</view>
+      </view>
+      <view class='hocities'>
+      <view>国内热门城市</view>
+      <view class='hocitiesList'>
+        <text class='hocitiesItem' wx:for="{{hotcities}}" wx:key="index" data-item='{{item}}'>{{item}}</text>
+      </view>
+      <view class='allcity'>
+        <block wx:for='{{citylist}}' wx:for-item='letterItem' wx:key='{{letterItem.id}}'  wx:for-index='letterIndex' >
+          <view class='city_first_letter' id='{{letterItem.letter}}'>{{letterItem.letter}}</view>
+          <text class='city_name' wx:for='{{letterItem.data}}' wx:key='{{item.id}}' data-types='list' data-index='{{index}}' data-val='{{item}}' data-item='{{item.cityName}}'>{{item.cityName}}</text>
+        </block>
+       </view>  
+      </view>
+    </scroll-view>
+  </view>
+  <view class='alphabet' >
+    <text class='letter' wx:for='{{alpha}}' wx:key='this' catchtap='letterTap' data-item='{{item}}'>{{item}}     </text>
+  </view>
+</view> 

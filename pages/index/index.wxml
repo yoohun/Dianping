@@ -1,0 +1,350 @@
+<view class='content'>
+  <view class='position'>
+    <view class='place' bindtap='clickCity'>
+      {{locateCity}}
+      <view class='positionImg'>
+        <image src='../../imgs/down.png'></image>
+      </view>
+    </view>
+    <view class='search'>
+      <input placeholder-class='placeholderClass' placeholder='输入商户名、地点、找优惠' class='searchIpt'></input>
+    </view>
+  </view>
+  <view class='classIconList'>
+    <view class='classIconListItem'>
+      <view class='itemBack'>
+        <view class='iconfont icon-meishi'></view>
+      </view>
+      <view class='classTitel'>美食</view>
+    </view>
+    <view class='classIconListItem'>
+      <view class='itemBack'>
+        <view class='iconfont icon-icon-test'></view>
+      </view>
+      <view class='classTitel'>外卖</view>
+    </view>
+    <view class='classIconListItem'>
+      <view class='itemBack'>
+        <view class='iconfont icon-yule'></view>
+      </view>
+      <view class='classTitel'>娱乐</view>
+    </view>
+    <view class='classIconListItem'>
+      <view class='itemBack'>
+        <view class='iconfont icon-jiudian'></view>
+      </view>
+      <view class='classTitel'>酒店</view>
+    </view>
+    <view class='classIconListItem'>
+      <view class='itemBack'>
+        <view class='iconfont icon-dianying'></view>
+      </view>
+      <view class='classTitel'>电影/演出</view>
+    </view>
+    <view class='classIconListItem'>
+      <view class='itemBack'>
+        <view class='iconfont icon-nvren'></view>
+      </view>
+      <view class='classTitel'>女人</view>
+    </view>
+    <view class='classIconListItem'>
+      <view class='itemBack'>
+        <view class='iconfont icon-lvyou'></view>
+      </view>
+      <view class='classTitel'>旅游</view>
+    </view>
+    <view class='classIconListItem'>
+      <view class='itemBack'>
+        <view class='iconfont icon-ai48'></view>
+      </view>
+      <view class='classTitel'>购物</view>
+    </view>
+    <view class='classIconListItem'>
+      <view class='itemBack'>
+        <view class='iconfont icon-ktvtianchong'></view>
+      </view>
+      <view class='classTitel'>KTV</view>
+    </view>
+    <view class='classIconListItem'>
+      <view class='itemBack'>
+        <view class='iconfont icon-airudiantubiaohuizhi-zhuanqu_qinzichengchang'></view>
+      </view>
+      <view class='classTitel'>亲子</view>
+    </view>
+  </view>
+  <view class='sIconList'>
+    <view class='sIconListItem'>
+      <view class='iconfont icon-pisa'></view>
+      <view class='sclassTitel'>美食</view>
+    </view>
+    <view class='sIconListItem'>
+      <view class='iconfont icon-pisa'></view>
+      <view class='sclassTitel'>美食</view>
+    </view>
+    <view class='sIconListItem'>
+      <view class='iconfont icon-pisa'></view>
+      <view class='sclassTitel'>美食</view>
+    </view>
+    <view class='sIconListItem'>
+      <view class='iconfont icon-pisa'></view>
+      <view class='sclassTitel'>美食</view>
+    </view>
+    <view class='sIconListItem'>
+      <view class='iconfont icon-pisa'></view>
+      <view class='sclassTitel'>美食</view>
+    </view>
+    <view class='sIconListItem'>
+      <view class='iconfont icon-pisa'></view>
+      <view class='sclassTitel'>美食</view>
+    </view>
+    <view class='sIconListItem'>
+      <view class='iconfont icon-pisa'></view>
+      <view class='sclassTitel'>美食</view>
+    </view>
+    <view class='sIconListItem'>
+      <view class='iconfont icon-pisa'></view>
+      <view class='sclassTitel'>美食</view>
+    </view>
+    <view class='sIconListItem'>
+      <view class='iconfont icon-pisa'></view>
+      <view class='sclassTitel'>美食</view>
+    </view>
+    <view class='sIconListItem'>
+      <view class='iconfont icon-pisa'></view>
+      <view class='sclassTitel'>美食</view>
+    </view>
+  </view>
+  <view class='fulicenter'>
+    <view class='quan'>
+      <view class='ttlq'>天天领券</view>
+      <view class='quanImg'>
+        <image src='../../imgs/bags.png'></image>
+      </view>
+    </view>
+    <view class='quanText'>
+      <view class='flTitle'>
+        福利中心
+        <view class='flSpan'>每日签到领红包</view>
+      </view>
+      <view class='flCircleLine'>
+        <view class='flCircleItem'>
+          <view class='flCircle'>1</view>
+          <view class='flLine'></view>
+        </view>
+        <view class='flCircleItem'>
+          <view class='flCircle'>2</view>
+          <view class='flLine'></view>
+        </view>
+        <view class='flCircleItem'>
+          <view class='flCircle'>3</view>
+          <view class='flLine'></view>
+        </view>
+        <view class='flCircleItem'>
+          <view class='flCircle'>4</view>
+          <view class='flLine'></view>
+        </view>
+        <view class='flCircleItem'>
+          <view class='flCircle'>5</view>
+          <view class='flLine'></view>
+        </view>
+        <view class='flCircleItem'>
+          <view class='flCircle'>6</view>
+          <view class='flLine'></view>
+        </view>
+        <view class='flCircleItem'>
+          <view class='flCircle'>7</view>
+          <view class='flLine lastLine'></view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='pingtuan'>
+    <view class='ptTitle'>美食超值拼团</view>
+    <view class='ptList'>
+      <view class='ptItem'>
+          <view class='ptItemTitle'>
+            <view class='ptItemIcon'>
+              <view class='iconfont icon-dianpu'></view>
+              <view class='ptItemIconTitle'>冒泡（内充公总店）</view>
+            </view>
+            <view class='ptItemDistance'>10.1KM
+              <view class='iconfont icon-xiangyou'></view>
+            </view>
+          </view>
+          <view class='ptItemContent'>
+            <view class='ptItemContentImg'>
+              <image src='../../imgs/bing.png'></image>
+            </view>
+            <view class='ptItemContentText'>
+              <view class='ptItemContentTextT'>
+                绵绵冰
+              </view>
+              <view class='ptItemContentTextP'>
+                <view class='ptItemContentTextPK'>2人团 | 5折</view>
+                <view class='ptItemContentTextPPrice'>￥7.8</view>
+              </view>
+              <view class='ptItemContentTextO'>
+                <view class='left'>单独买 ￥12</view>
+                <view class='right'>已拼 27</view>
+              </view>
+            </view>
+          </view>
+        </view>
+    </view>
+  </view>
+  <view class='like'>
+    <view class='ptTitle'>猜你喜欢</view>
+    <view class='likeItem'>
+      <view class='likeItemImg'>
+        <image src='../../imgs/qw.png'></image>
+      </view>
+      <view class='ptItem'>
+        <view class='ptItemContentTextT likeItemTitle'>
+          <view class='likeItemLeft'>善宇素食馆</view>
+          <view class='likeItemRight'>293m</view>
+        </view>
+        <view class='likeItemM'>低至9折单人素食自助餐</view>
+        <view class='likeItemB'>
+          <view class='likeItemBP'>
+            <view>￥22.5</view>
+            ￥25
+          </view>
+          <view>已售24</view>
+        </view>
+      </view>
+    </view>
+    <view class='likeItem'>
+      <view class='likeItemImg'>
+        <image src='../../imgs/qw.png'></image>
+      </view>
+      <view class='ptItem'>
+        <view class='ptItemContentTextT likeItemTitle'>
+          <view class='likeItemLeft'>善宇素食馆</view>
+          <view class='likeItemRight'>293m</view>
+        </view>
+        <view class='likeItemM'>低至9折单人素食自助餐</view>
+        <view class='likeItemB'>
+          <view class='likeItemBP'>
+            <view>￥22.5</view>
+            ￥25
+          </view>
+          <view>已售24</view>
+        </view>
+      </view>
+    </view>
+    <view class='likeItem'>
+      <view class='likeItemImg'>
+        <image src='../../imgs/qw.png'></image>
+      </view>
+      <view class='ptItem'>
+        <view class='ptItemContentTextT likeItemTitle'>
+          <view class='likeItemLeft'>善宇素食馆</view>
+          <view class='likeItemRight'>293m</view>
+        </view>
+        <view class='likeItemM'>低至9折单人素食自助餐</view>
+        <view class='likeItemB'>
+          <view class='likeItemBP'>
+            <view>￥22.5</view>
+            ￥25
+          </view>
+          <view>已售24</view>
+        </view>
+      </view>
+    </view>
+    <view class='likeItem'>
+      <view class='likeItemImg'>
+        <image src='../../imgs/qw.png'></image>
+      </view>
+      <view class='ptItem'>
+        <view class='ptItemContentTextT likeItemTitle'>
+          <view class='likeItemLeft'>善宇素食馆</view>
+          <view class='likeItemRight'>293m</view>
+        </view>
+        <view class='likeItemM'>低至9折单人素食自助餐</view>
+        <view class='likeItemB'>
+          <view class='likeItemBP'>
+            <view>￥22.5</view>
+            ￥25
+          </view>
+          <view>已售24</view>
+        </view>
+      </view>
+    </view>
+    <view class='likeItem'>
+      <view class='likeItemImg'>
+        <image src='../../imgs/qw.png'></image>
+      </view>
+      <view class='ptItem'>
+        <view class='ptItemContentTextT likeItemTitle'>
+          <view class='likeItemLeft'>善宇素食馆</view>
+          <view class='likeItemRight'>293m</view>
+        </view>
+        <view class='likeItemM'>低至9折单人素食自助餐</view>
+        <view class='likeItemB'>
+          <view class='likeItemBP'>
+            <view>￥22.5</view>
+            ￥25
+          </view>
+          <view>已售24</view>
+        </view>
+      </view>
+    </view>
+    <view class='likeItem'>
+      <view class='likeItemImg'>
+        <image src='../../imgs/qw.png'></image>
+      </view>
+      <view class='ptItem'>
+        <view class='ptItemContentTextT likeItemTitle'>
+          <view class='likeItemLeft'>善宇素食馆</view>
+          <view class='likeItemRight'>293m</view>
+        </view>
+        <view class='likeItemM'>低至9折单人素食自助餐</view>
+        <view class='likeItemB'>
+          <view class='likeItemBP'>
+            <view>￥22.5</view>
+            ￥25
+          </view>
+          <view>已售24</view>
+        </view>
+      </view>
+    </view>
+    <view class='likeItem'>
+      <view class='likeItemImg'>
+        <image src='../../imgs/qw.png'></image>
+      </view>
+      <view class='ptItem'>
+        <view class='ptItemContentTextT likeItemTitle'>
+          <view class='likeItemLeft'>善宇素食馆</view>
+          <view class='likeItemRight'>293m</view>
+        </view>
+        <view class='likeItemM'>低至9折单人素食自助餐</view>
+        <view class='likeItemB'>
+          <view class='likeItemBP'>
+            <view>￥22.5</view>
+            ￥25
+          </view>
+          <view>已售24</view>
+        </view>
+      </view>
+    </view>
+    <view class='likeItem'>
+      <view class='likeItemImg'>
+        <image src='../../imgs/qw.png'></image>
+      </view>
+      <view class='ptItem'>
+        <view class='ptItemContentTextT likeItemTitle'>
+          <view class='likeItemLeft'>善宇素食馆</view>
+          <view class='likeItemRight'>293m</view>
+        </view>
+        <view class='likeItemM'>低至9折单人素食自助餐</view>
+        <view class='likeItemB'>
+          <view class='likeItemBP'>
+            <view>￥22.5</view>
+            ￥25
+          </view>
+          <view>已售24</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
