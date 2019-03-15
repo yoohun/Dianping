@@ -35,6 +35,6 @@ App({
   },
   globalData: {
     userInfo: null,
-    selectedCity: 'sdfsd'
+    selectedCity: '汕头'
   }
 })

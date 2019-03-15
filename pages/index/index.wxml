@@ -160,37 +160,103 @@
   </view>
   <view class='pingtuan'>
     <view class='ptTitle'>美食超值拼团</view>
-    <view class='ptList'>
-      <view class='ptItem'>
-          <view class='ptItemTitle'>
-            <view class='ptItemIcon'>
-              <view class='iconfont icon-dianpu'></view>
-              <view class='ptItemIconTitle'>冒泡（内充公总店）</view>
+      <view class='scrollView'>
+        <scroll-view  scroll-x="true" style=" white-space: nowrap; display: flex;height:250rpx">
+        <view class='ptList'>
+            <view class='ptItem'>
+                <view class='ptItemTitle'>
+                  <view class='ptItemIcon'>
+                    <view class='iconfont icon-dianpu'></view>
+                    <view class='ptItemIconTitle'>冒泡（内充公总店）</view>
+                  </view>
+                  <view class='ptItemDistance'>10.1KM
+                    <view class='iconfont icon-xiangyou'></view>
+                  </view>
+                </view>
+                <view class='ptItemContent'>
+                  <view class='ptItemContentImg'>
+                    <image src='../../imgs/bing.png'></image>
+                  </view>
+                  <view class='ptItemContentText'>
+                    <view class='ptItemContentTextT'>
+                      绵绵冰
+                    </view>
+                    <view class='ptItemContentTextP'>
+                      <view class='ptItemContentTextPK'>2人团 | 5折</view>
+                      <view class='ptItemContentTextPPrice'>￥7.8</view>
+                    </view>
+                    <view class='ptItemContentTextO'>
+                      <view class='left'>单独买 ￥12</view>
+                      <view class='right'>已拼 27</view>
+                    </view>
+                  </view>
+                </view>
             </view>
-            <view class='ptItemDistance'>10.1KM
-              <view class='iconfont icon-xiangyou'></view>
-            </view>
-          </view>
-          <view class='ptItemContent'>
-            <view class='ptItemContentImg'>
-              <image src='../../imgs/bing.png'></image>
-            </view>
-            <view class='ptItemContentText'>
-              <view class='ptItemContentTextT'>
-                绵绵冰
-              </view>
-              <view class='ptItemContentTextP'>
-                <view class='ptItemContentTextPK'>2人团 | 5折</view>
-                <view class='ptItemContentTextPPrice'>￥7.8</view>
-              </view>
-              <view class='ptItemContentTextO'>
-                <view class='left'>单独买 ￥12</view>
-                <view class='right'>已拼 27</view>
-              </view>
-            </view>
-          </view>
         </view>
-    </view>
+        <view class='ptList'>
+            <view class='ptItem'>
+                <view class='ptItemTitle'>
+                  <view class='ptItemIcon'>
+                    <view class='iconfont icon-dianpu'></view>
+                    <view class='ptItemIconTitle'>冒泡（内充公总店）</view>
+                  </view>
+                  <view class='ptItemDistance'>10.1KM
+                    <view class='iconfont icon-xiangyou'></view>
+                  </view>
+                </view>
+                <view class='ptItemContent'>
+                  <view class='ptItemContentImg'>
+                    <image src='../../imgs/bing.png'></image>
+                  </view>
+                  <view class='ptItemContentText'>
+                    <view class='ptItemContentTextT'>
+                      绵绵冰
+                    </view>
+                    <view class='ptItemContentTextP'>
+                      <view class='ptItemContentTextPK'>2人团 | 5折</view>
+                      <view class='ptItemContentTextPPrice'>￥7.8</view>
+                    </view>
+                    <view class='ptItemContentTextO'>
+                      <view class='left'>单独买 ￥12</view>
+                      <view class='right'>已拼 27</view>
+                    </view>
+                  </view>
+                </view>
+            </view>
+        </view>
+        <view class='ptList'>
+            <view class='ptItem'>
+                <view class='ptItemTitle'>
+                  <view class='ptItemIcon'>
+                    <view class='iconfont icon-dianpu'></view>
+                    <view class='ptItemIconTitle'>冒泡（内充公总店）</view>
+                  </view>
+                  <view class='ptItemDistance'>10.1KM
+                    <view class='iconfont icon-xiangyou'></view>
+                  </view>
+                </view>
+                <view class='ptItemContent'>
+                  <view class='ptItemContentImg'>
+                    <image src='../../imgs/bing.png'></image>
+                  </view>
+                  <view class='ptItemContentText'>
+                    <view class='ptItemContentTextT'>
+                      绵绵冰
+                    </view>
+                    <view class='ptItemContentTextP'>
+                      <view class='ptItemContentTextPK'>2人团 | 5折</view>
+                      <view class='ptItemContentTextPPrice'>￥7.8</view>
+                    </view>
+                    <view class='ptItemContentTextO'>
+                      <view class='left'>单独买 ￥12</view>
+                      <view class='right'>已拼 27</view>
+                    </view>
+                  </view>
+                </view>
+            </view>
+        </view>
+      </scroll-view>
+      </view>
   </view>
   <view class='like'>
     <view class='ptTitle'>猜你喜欢</view>

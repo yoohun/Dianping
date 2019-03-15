@@ -17,7 +17,6 @@ Page({
     })
   },
   clickCity:function (){
-    console.log(1111)
     wx.navigateTo({
       url: '../city/city'
     })
@@ -31,6 +30,7 @@ Page({
     this.setData({
       locateCity: app.globalData.selectedCity
     })
+    
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
