@@ -1,8 +1,13 @@
 <view class='content'>
   <view class='personal'>
     <view class='personalInform'>
-      <view class='personalInformImg'></view>
-      <view class='personalInformName'></view>
+      <view class='personalInformImg'>
+        <image src='../../imgs/touxiang.png' class='userImg' mode='widthFix'></image>
+      </view>
+      <view class='personalInformName'>
+        <view class='username'>{{username}}</view>
+        <view class='usercity'>{{city}}</view>
+      </view>
     </view>
     <view class='personalIndex'>
       个人主页
@@ -11,11 +16,15 @@
   </view>
   <view class='nameCard'>
     <view class='nameCardLeft'>
-      <view class='top'></view>
-      <view class='bottom'></view>
+      <view class='top'>
+        <view class="iconfont icon-mingpian"></view>
+        <view class='toptext'>我的点评名片</view>
+      </view>
+      <view class='bottom'>让更多人认识你</view>
     </view>
     <view class='nameCardRight'>
-      <view ></view>
+      <view class="iconfont icon-erweima"></view>
+      <view class='iconfont icon-xiangyou'></view>
     </view>
   </view>
   <view class='myDD'>

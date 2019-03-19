@@ -7,7 +7,6 @@ var amapFile = require('../../libs/amap-wx.js');
 // };
 Page({
   data: {
-    locate:'',
     locateCity: '',
     scroll_height: 0,
     toView:'',
@@ -28,51 +27,37 @@ Page({
       locateCity: app.globalData.selectedCity || ''
     })
   },
-  loadInfo: function () {
-    var that = this;
-    var myAmapFun = new amapFile.AMapWX({ key: '0f086062880f925ad37914ac0f6e2057' });
-    var place=''
-    myAmapFun.getRegeo({
-      success: function (data) {
-        //成功回调
-        console.log(data[0].name)
-        place = data[0].name
-        console.log(place)
-        that.setData({
-          locate: place
-        })
-        // console.log(this.locate)
-      },
-      fail: function (info) {
-        //失败回调
-        console.log(info)
-        if(info.errcode=='0') {
-          that.setData({
-            locate: '深圳'
-          })
-        }
-      }
-    })
-    
-    
-
-  }, 
-  loadCity: function (latitude, longitude) {
-    var that = this;
-    var myAmapFun = new amapFile.AMapWX({ key: markersData.key });
-    console.log(3333)
-    myAmapFun.getRegeo({
-      location: '' + longitude + ',' + latitude + '',//location的格式为'经度,纬度'
-      success: function (data) {
-        console.log(data);
-      },
-      fail: function (info) { 
-        console.log(info)
-      }
-    });},
+  // loadInfo: function () {
+  //   var that = this;
+  //   var myAmapFun = new amapFile.AMapWX({ key: '0f086062880f925ad37914ac0f6e2057' });
+  //   var place=''
+  //   myAmapFun.getRegeo({
+  //     success: function (data) {
+  //       //成功回调
+  //       console.log(this.locate)
+  //       console.log(data);
+  //       console.log(data[0].regeocodeData.addressComponent['city'])
+  //       var city = data[0].regeocodeData.addressComponent['city']
+  //       city = city.substring(0, city.length - 1)
+  //       that.setData({
+  //         locate: city
+  //       })
+  //     },
+  //     fail: function (info) {
+  //       //失败回调
+  //       console.log(info)
+  //       if(info.errcode=='0') {
+  //         that.setData({
+  //           locate: '深圳'
+  //         })
+  //       }
+  //     }
+  //   })
+  // }, 
   onLoad: function () {
-    console.log(212312)
-    this.loadInfo();
+    // console.log(212312)
+    // this.loadInfo();
+    console.log(app.globalData.selectedCity)
     let windowHeight = wx.getSystemInfoSync().windowHeight // 屏幕的高度
     let windowWidth = wx.getSystemInfoSync().windowWidth // 屏幕的宽度
     this.setData({

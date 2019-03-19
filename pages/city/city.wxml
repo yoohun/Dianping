@@ -6,7 +6,7 @@
         <input class='citySearchIpt' placeholder='输入城市名或拼音查询'      placeholder-class='citySearchIptPlaceholder'></input>
       </view>
       <view class='locationCity'>
-      {{locate}}
+      {{locateCity}}
         <view>GPS定位</view>
       </view>
       <view class='hocities'>

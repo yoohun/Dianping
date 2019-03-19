@@ -272,7 +272,7 @@
         <view class='likeItemM'>低至9折单人素食自助餐</view>
         <view class='likeItemB'>
           <view class='likeItemBP'>
-            <view>￥22.5</view>
+            <view class='likeItemBPOrange'>￥22.5</view>
             ￥25
           </view>
           <view>已售24</view>
@@ -291,7 +291,7 @@
         <view class='likeItemM'>低至9折单人素食自助餐</view>
         <view class='likeItemB'>
           <view class='likeItemBP'>
-            <view>￥22.5</view>
+            <view class='likeItemBPOrange'>￥22.5</view>
             ￥25
           </view>
           <view>已售24</view>
@@ -310,7 +310,7 @@
         <view class='likeItemM'>低至9折单人素食自助餐</view>
         <view class='likeItemB'>
           <view class='likeItemBP'>
-            <view>￥22.5</view>
+            <view class='likeItemBPOrange'>￥22.5</view>
             ￥25
           </view>
           <view>已售24</view>
@@ -329,7 +329,7 @@
         <view class='likeItemM'>低至9折单人素食自助餐</view>
         <view class='likeItemB'>
           <view class='likeItemBP'>
-            <view>￥22.5</view>
+            <view class='likeItemBPOrange'>￥22.5</view>
             ￥25
           </view>
           <view>已售24</view>
@@ -348,7 +348,7 @@
         <view class='likeItemM'>低至9折单人素食自助餐</view>
         <view class='likeItemB'>
           <view class='likeItemBP'>
-            <view>￥22.5</view>
+            <view  class='likeItemBPOrange'>￥22.5</view>
             ￥25
           </view>
           <view>已售24</view>
@@ -367,7 +367,7 @@
         <view class='likeItemM'>低至9折单人素食自助餐</view>
         <view class='likeItemB'>
           <view class='likeItemBP'>
-            <view>￥22.5</view>
+            <view class='likeItemBPOrange'>￥22.5</view>
             ￥25
           </view>
           <view>已售24</view>
@@ -386,7 +386,7 @@
         <view class='likeItemM'>低至9折单人素食自助餐</view>
         <view class='likeItemB'>
           <view class='likeItemBP'>
-            <view>￥22.5</view>
+            <view class='likeItemBPOrange'>￥22.5</view>
             ￥25
           </view>
           <view>已售24</view>
@@ -405,7 +405,7 @@
         <view class='likeItemM'>低至9折单人素食自助餐</view>
         <view class='likeItemB'>
           <view class='likeItemBP'>
-            <view>￥22.5</view>
+            <view class='likeItemBPOrange'>￥22.5</view>
             ￥25
           </view>
           <view>已售24</view>
